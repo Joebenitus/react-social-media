@@ -1,7 +1,8 @@
 import React from "react";
-import FriendMessage from "./FriendMessage";
+import MakeTweet from "./MakeTweet"
+import Tweet from "./Tweet";
 
-const friendsMessages = [
+const tweets = [
   {
     picture: 'img',
     name: "Josh",
@@ -18,9 +19,8 @@ function Timeline(){
   return (
     <React.Fragment>
       <MakeTweet />
-      <hr/>
-      {friendsMessages.map((post, index) =>
-        <FriendMessage profilePicture={post.picture}
+      {tweets.map((post, index) =>
+        <Tweet picture={post.picture}
           name={post.name}
           message={post.message}/>
       )}

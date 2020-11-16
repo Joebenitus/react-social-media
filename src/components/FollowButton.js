@@ -1,11 +1,11 @@
 import React from "react";
 
-function AddFriend(){
+function FollowButton(){
   return (
     <React.Fragment>
-      
+      <button>Follow</button>
     </React.Fragment>
   )
 }
 
-export default AddFriend;
+export default FollowButton;

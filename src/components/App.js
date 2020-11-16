@@ -1,13 +1,13 @@
-import './App.css';
+import './../App.css';
 import React from "react";
 import NavBar from "./NavBar";
-import ProfilePage from "./ProfilePage";
+import Body from "./Body";
 
 function App() {
   return (
     <React.Fragment>
       <NavBar />
-      <ProfilePage />
+      <Body />
     </React.Fragment>
   );
 }

@@ -1,16 +1,16 @@
 import React from "react";
 import ProfileInfo from "./ProfileInfo";
 import Timeline from "./Timeline";
-import AddFriend from "./AddFriend";
+import AddFollow from "./WhoToFollow";
 
-function ProfilePage(){
+function Body(){
   return(
     <React.Fragment>
       <ProfileInfo />
       <Timeline />
-      <AddFriend />
+      <AddFollow />
     </React.Fragment>
   )
 }
 
-export default ProfilePage;
+export default Body;
