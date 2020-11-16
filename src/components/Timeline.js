@@ -18,11 +18,13 @@ const tweets = [
 function Timeline(){
   return (
     <React.Fragment>
+      <h3>Timeline</h3>
       <MakeTweet />
       {tweets.map((post, index) =>
         <Tweet picture={post.picture}
           name={post.name}
-          message={post.message}/>
+          message={post.message}
+          key={index}/>
       )}
     </React.Fragment>
   )

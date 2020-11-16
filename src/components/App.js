@@ -6,8 +6,10 @@ import Body from "./Body";
 function App() {
   return (
     <React.Fragment>
-      <NavBar />
-      <Body />
+      <div class="container">
+        <NavBar />
+        <Body />
+      </div>
     </React.Fragment>
   );
 }
